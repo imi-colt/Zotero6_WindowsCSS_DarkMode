@@ -1,0 +1,292 @@
+/*:::::::::::::::::::::::::::::::::::::::::::::::::::: Zotero CSS :::::::::::::::::::::::::::::::::::::::::::::::::::*/
+
+/*
+Color Scheme
+
+#008A8A    <<< Dark Green (Selected Item)
+#474747     <<< Mid Grey (Borders)
+#202020     <<< Charcoal Grey (Background)
+#323232     <<< Dark Grey (Top Menu Background)
+#7E7E7E     <<< Light Grey (hover)
+#FFFFFF     <<< White (Text)
+#FF00FF     <<< HotPink (for testing)
+
+*/
+
+/* General Settings Background Color and Text Color of Zotero Toolbar and Menubar*/
+* {border: 0 !important; }
+
+/* Navigation Menu on Top---------------------------------------------------------------------Zotero 6 */
+#zotero-tb, #zotero-toolbar, #navigator-toolbox
+{
+  background: #323232 !important;
+  color: #FFFFFF !important;
+}
+
+#zotero-toolbar
+{
+  border-bottom: 1px solid #474747 !important;
+  color: #FFFFFF  !important;
+}
+
+#navigator-toolbox menu
+{
+  color: #FFFFFF  !important;
+  font-family: "Roboto Medium", sans-serif !important;
+}
+
+#manage-attachments-menu label, #developer-menu label, #layout-menu label, #note-font-size-menu label, #font-size-menu label, #debug-output-menu label, #new-item label
+{
+  color: black  !important;
+}
+
+
+
+/* Navigation Menu on Left---------------------------------------------------------------------Zotero 6 */
+.virtualized-table
+{
+  background: #202020 !important;
+  color: #FFFFFF !important;
+  font-family: "Roboto Medium", sans-serif !important;
+}
+
+.virtualized-table .row
+{
+  background: #202020 !important;
+  color: #FFFFFF !important;
+  font-family: "Roboto Medium", sans-serif !important;
+}
+
+.virtualized-table-header
+{
+  -moz-appearance: none !important;
+  background: #008A8A !important;
+  color: #FFFFFF !important;
+  border-bottom: 1px solid #474747 !important;
+  border-right: 1px solid #474747 !important;
+  font-family: "Roboto Medium", sans-serif !important;
+ }
+
+.virtualized-table-header .cell:hover
+{
+  background: #7E7E7E !important;
+  color: #FFFFFF !important;
+  font-family: "Roboto Medium", sans-serif !important;
+}
+
+.virtualized-table .row.selected
+{
+  background: #008A8A !important;
+  border: 0 !important;
+  border-bottom: 1px solid #474747 !important;
+  font-family: "Roboto Medium", sans-serif !important;
+}
+
+.virtualized-table:not(:focus) .row.selected
+{
+  background: #008A8A !important;
+  border: 0 !important;
+  border-bottom: 1px solid #474747 !important;
+  font-family: "Roboto Medium", sans-serif !important;
+}
+
+.row:hover
+{
+  background: #7E7E7E !important;
+  color: #FFFFFF !important;
+  border: 0 !important;
+  font-family: "Roboto Medium", sans-serif !important;
+}
+
+/* Main Panel ---------------------------------------------------------------------Zotero 6 */
+#zotero-items-tree .virtualized-table
+{
+  background: #202020 !important;
+  color: #FFFFFF !important;
+  border: 0 !important;
+  font-family: "Roboto Medium", sans-serif !important;
+}
+
+#zotero-items-tree .virtualized-table .row
+{
+  background: #202020 !important;
+  color: #FFFFFF !important; border: 0 !important;
+  font-family: "Roboto Medium", sans-serif !important;
+ }
+
+#zotero-items-tree .virtualized-table .row.selected
+{
+  background: #008A8A !important;
+  color: #FFFFFF !important;
+  border: 0 !important;
+  font-family: "Roboto Medium", sans-serif !important;
+}
+
+#zotero-items-tree .virtualized-table .row:hover
+{
+  background: #7E7E7E !important;
+  color: #FFFFFF !important;
+  border: 0 !important;
+  font-family: "Roboto Medium", sans-serif !important;
+}
+
+/* Tags ---------------------------------------------------------------------------------------- Zotero 6*/
+
+
+.tag-selector-item
+{
+  background: #202020 !important;
+  color: #FFFFFF !important;
+  font-family: "Roboto Medium", sans-serif !important;
+  font-size: 14px !important;
+}
+
+.tag-selector-item:hover
+{
+  background: #7E7E7E !important;
+  color: #FFFFFF !important;
+  font-family: "Roboto Medium", sans-serif !important;
+}
+
+.tag-selector-item.selected
+{
+
+  color: #FFFFFF !important;
+  font-family: "Roboto Medium", sans-serif !important;
+}
+
+#zotero-pane
+{
+  background: #202020 !important;
+  color: #FFFFFF !important;
+}
+
+grippy
+{
+  opacity: .5 !important;
+}
+
+/* Main Panel Header -------------------------------------------------------------- Zotero 6*/
+#zotero-items-tree .virtualized-table-header
+{
+  -moz-appearance: none !important;
+  background: #202020 !important;
+  color: #FFFFFF !important;
+  border-bottom: 1px solid #474747 !important;
+  border-right: 1px solid #474747 !important;
+  font-family: "Roboto Medium", sans-serif !important;
+}
+
+#zotero-items-tree .virtualized-table-header .cell:hover
+{
+  background: #7E7E7E !important;
+  color: #FFFFFF !important;
+  font-family: "Roboto Medium", sans-serif !important;
+}
+
+.treecol-image
+{
+   -moz-appearance: none !important;
+  background: #202020 !important;
+  color: #FFFFFF !important;
+  border-bottom: 1px solid #474747 !important;
+}
+
+/* Item-Pane-Content-------------------------------------------- Zotero 6*/
+#zotero-item-pane-content
+{
+  background: #323232 !important;
+  color: #FFFFFF !important;
+  font-family: "Roboto Medium", sans-serif !important;
+  font-size: 14px !important;
+}
+
+#zotero-item-pane-content tabpanel
+{
+  -moz-appearance: none !important;
+  background: #202020 !important;
+  color: #FFFFFF !important;
+}
+
+#zotero-item-pane-content tab
+{
+  -moz-appearance: none !important;
+  color: #FFFFFF !important;
+  background: #202020 !important;
+}
+
+#zotero-item-pane-content tab:hover
+{
+  color: #FFFFFF !important;
+  background: #7E7E7E !important;
+}
+
+#zotero-item-pane-content tab[selected="true"]
+{
+  color: #FFFFFF !important;
+  background: #202020 !important;
+  border-top: 3px solid #008A8A !important;
+}
+
+#item-type-menu
+{
+	-moz-appearance: none !important;
+	color: #FFFFFF  !important;
+	background-color: transparent;
+}
+
+#zotero-item-pane-content  groupbox.groupbox-body
+{
+  color: #FFFFFF !important;
+}
+
+#zotero-editpane-item-box
+{
+	-moz-appearance: none !important;
+	color: #FFFFFF  !important;
+  background: #202020 !important;
+}
+
+#zotero-item-pane-content zoteroitembox
+{
+	-moz-appearance: none !important;
+	color: #FFFFFF  !important;
+  background: #202020 !important;
+}
+
+#zotero-item-pane-content label:hover
+{
+	-moz-appearance: none !important;
+	color: #FFFFFF  !important;
+  background: #008A8A !important;
+}
+
+#zotero-item-pane-content hbox:hover
+{
+	-moz-appearance: none !important;
+	color: #FFFFFF  !important;
+  background: #008A8A !important;
+}
+
+/* Tags-Pane-Content-------------------------------------------- Zotero 6*/
+
+.tags-box-header:hover
+{
+	-moz-appearance: none !important;
+	color: #FFFFFF  !important;
+  background: #008A8A !important;
+}
+
+.editable-content:hover
+{
+	-moz-appearance: none !important;
+	color: #FFFFFF  !important;
+  background: #008A8A !important;
+}
+
+input.editable-control
+{
+	-moz-appearance: none !important;
+	color: #FFFFFF  !important;
+  background: #008A8A !important;
+}
